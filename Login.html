@@ -32,7 +32,7 @@
 	</style>
 </head>
 <body>
-	<form>
+	<form action="" method="post">
 	<h2 class="title">Login</h2>
 	<label form="">Email</label>
 			<div class="input">
@@ -48,16 +48,5 @@
 			</div>
 		</form>
 </body>
-<script>
-	function logar(){
-	var Email = document.getElementById('email').value;
-	var Senha = document.getElementById('senha').value;
-
-	if(Email == "admin@gmail.com" && Senha == "admin"){
-		alert('Sucesso');
-	}else{
-		alert('Email ou Senha incorretos')
-	}
-}
-	</script>
+<script src="./js/login.js"></script>
 </html>
